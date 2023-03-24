@@ -14,7 +14,7 @@ services:
 
   autograph:
     # Autograph is stuck at 2.7.0 because of mozilla-services/autograph#344
-    image: mozilla/autograph:2.7.0
+    image: mozilla/autograph:2.9.1
     volumes:
       - ${PWD}/autograph/autograph.yaml:/app/autograph.yaml
 
